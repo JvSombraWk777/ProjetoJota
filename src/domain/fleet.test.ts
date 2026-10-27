@@ -4,7 +4,7 @@ import { getDevice } from "@/data/frota";
 
 const base: Device = {
   id: "X", model: "m", chipset: "c", tier: "mid", batteryLevel: 50, batteryCapacityMah: 5000,
-  energyMah: 500, normalizedFrom: "mAh", screenOnMinutes: 60, droppedFramesPct: 0, crashes7d: 0,
+  energyMah: 200, normalizedFrom: "mAh", screenOnMinutes: 60, droppedFramesPct: 0, crashes7d: 0,
   apiLevel: 34, lastContact: "2026-10-20T00:00:00Z",
 };
 
