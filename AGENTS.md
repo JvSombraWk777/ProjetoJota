@@ -8,3 +8,5 @@
 > Commits you push to the connected branch sync back to Lovable and show up in
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
+
+- Classification rules live in src/domain (pure, no UI); unit normalization (mWh->mAh) happens in src/data when mapping raw records — keeps the rule testable and unit-agnostic.
